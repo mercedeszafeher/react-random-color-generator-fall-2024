@@ -8,9 +8,9 @@ Design and develop a random color generator web application using React. This ap
 - [ ] Create a simple UI with: - A button labeled "Generate Random Color". - A display area for the generated color.
 - [ ] Use basic CSS for styling: - Center the button and color display. - Set a fixed height and width for the color display box.
 
-- [ ] Find the color library
-- [ ] Create a state
-- [ ] Initial state color
+- [ ] Find a color library - Use a built-in JavaScript method or a color library to generate a random hex color.
+- [ ] Create a state variable to store the generated color.
+- [ ] Initialize the color state with a default value, such as #ffffff (white).
 
 - [ ] A button with the exact text Generate will cause a new color to be generated when it is clicked
 - [ ] Once a color is generated, update the background color of a div which contains the exact text Generated Color: <background color hex code> (the background color and the hex code must match)
