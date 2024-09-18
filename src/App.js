@@ -36,6 +36,9 @@ export default function App() {
         }}
       >
         <h1>Random Color Generator</h1>
+
+        <h3>Generated Color:</h3>
+
         <div
           style={{
             width: '100%',
