@@ -37,8 +37,6 @@ export default function App() {
       >
         <h1>Random Color Generator</h1>
 
-        <h3>Generated Color:</h3>
-
         <div
           style={{
             width: '100%',
@@ -57,7 +55,7 @@ export default function App() {
             backgroundColor: color,
           }}
         >
-          {color}
+          Generated Color: {color}
         </div>
         <button onClick={generateRandomColor}>Generate</button>
       </div>
